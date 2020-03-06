@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	margin: 0 auto;
+	height: 1500px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: indianred;
+}
+ul{
+	list-style: none;
+}
+#top{
+	text-align: center;
+	height: 5px;
+	background-color: #888888;
+	margin-bottom: 0;
+	width: 1500px;
+ }
+
+#head1{
+	background-image: url("../images/top1.jpg");
+	background-repeat: no-repeat;	
+	height: 128px;
+	margin: 0 auto;
+	width: 1500px;
+	float: left;
+}
+
+html #top1{
+	float: left;
+	margin: 0 auto;
+	list-style-type: none;
+	width: 1458px;
+	height: 30px;
+	background: #A5DCC7;
+
+}
+html #top1 li{
+	margin-right: 20px;
+	float: right;
+	display: inline;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	
+}
+/*头部结束*/
+
+
+/*主体开始*/
+#body1{
+	margin-top: 158px;
+	height: 600px;
+}
+
+/*左边主体开始*/
+#body1 #left {
+	border: 1px solid black;
+	float: left;
+	width: 300px;
+	height: 600px;
+	background:  #A5DCC7;
+}
+#body1 #left ul{
+	padding: 0;
+}
+#body1 #left ul li{
+	border-bottom: 1px solid #B89858;
+	height: 80px;
+	
+	line-height: 80px;
+	font-size: 30px;
+	text-align: center;
+}
+/*左边主体结束*/
+
+
+
+/*右边主体开始*/
+#body1 #right{
+	float: right;
+	width: 1199px;
+	border: 1px solid black;
+	height: 600px;
+}
+/*右边主体结束*/
+/*主体结束*/

@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+a:visited{
+	color: #9625BC;
+}
+html{
+	float: left;
+}
+ul,li{
+	list-style-type: none;
+}
+div{
+	margin: 0 auto;
+	height: 1500px;
+}
+#top{
+	text-align: center;
+	height: 5px;
+	background-color: #888888;
+	margin-bottom: 0;
+ }
+
+#head1{
+	background-image: url("../images/top1.jpg");
+	background-repeat: no-repeat;	
+	height: 128px;
+}
+
+html ul{
+	margin: 0 auto;
+	list-style-type: none;
+	width: 1458px;
+	height: 30px;
+	background: #A5DCC7;
+
+}
+html ul li{
+	margin-right: 20px;
+	float: right;
+	display: inline;
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	
+}
+#body1{
+	height: 600px;
+	background-image: url("../images/head11.jpg");
+}
+#dl{
+	width: 500px;
+	height: 100%;
+	margin-left: 500px;
+/*	border: 1px solid red;*/
+}
+#dl ul{
+	width: 500px;
+	border: 1px solid block;
+}
+#dl ul li{
+	text-align: center;
+	margin-bottom: 50px;
+	background: #FFFFFF;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	border: 1px dashed blue;
+}
+#dl #t{
+	height: 100px;
+	line-height: 100px;
+}
+#dl  li a{
+	text-align: center;
+	font-size: 20px;
+	line-height: 100px;
+	float: left;	
+	width: 248px;
+	height: 100%;
+	background:#7FEFFA ;
+	
+}
+#dl li #a1{
+	border-right: 4px solid black;
+}
+
+#dl form{
+	padding:20px 0 0 50px;
+	
+}
+#dl form th{
+	height: 50px;
+	margin: 40px 50px 0 20px;
+	
+}
+#dl form input{
+	margin: 20px 0 0 50px;
+	height: 40px;
+	font-size: 20px;
+	width: 300px;
+	
+}
+#dl form #dl1{
+	width: 100px;
+	margin: 40px 0 0 80px;
+	font-size: 20px;
+}
+#dl form button{
+	margin: 40px 0 0 100px;
+	height: 40px;
+	width: 100px;
+	font-size: 20px;
+}
+#dl form #yzm1{
+	width: 100px;
+}
+#dl form .xb{
+
+	margin: 20px 10px 0 10px;
+	width: 20px;
+	height: 20px;
+}
+#dl form #dh1{
+	margin-left: 30px;
+}
+#dl form #fs1{
+	margin-left: 20px;
+	width: 60px;
+	font-size: 15px;
+	height: 30px;
+}
+
